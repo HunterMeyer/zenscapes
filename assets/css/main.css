@@ -1,3 +1,12 @@
+.body { margin-top: 56px; }
+
+nav.top-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 #nav-logo {
   width:20px;
   height:20px;
@@ -12,4 +21,5 @@
   .nav-centered li { text-align: center !important; }
   .nav-centered { text-align: center !important; }
   .nav-branding { margin-bottom: -10px; }
+  .body { margin-top: 109px; }
 }
