@@ -8,18 +8,21 @@ table, tr { width: 100%; }
 /* NAVIGATION */
 nav.top-bar { position: fixed; top: 0; width: 100%; z-index: 1000; }
 nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
-.top-bar a { color: #66AA3C !important; }
-.top-bar a::after { border-color: #66AA3C transparent transparent !important; }
-.top-bar-call { margin-left: -33px; color: #A0A0A0; }
-.top-bar-call b { font-size: 18px; }
-
-.menu-text { padding: .8rem 1rem !important; }
 
 #nav-brand { font-size: 35px; }
 #nav-logo { width: 35px; height: auto; margin-top: -7px; margin-right: 0px; }
 
+.top-bar a { color: #66AA3C !important; transition: all 0.3s ease; }
+.top-bar a:hover, .top-bar a:hover:after { color: #48782B !important; border-color: #48782B transparent transparent !important; }
+
+.top-bar a::after { border-color: #66AA3C transparent transparent !important; }
+.top-bar-call { margin-left: -33px; color: #525252; }
+.top-bar-call b { font-size: 18px; }
+.nav-dropdown li { transition: all 0.2s ease; }
 .nav-dropdown li:hover { background: #EAEAEA; font-weight: bold; }
 .nav-li-inline-block { display: inline-block !important; }
+
+.menu-text { padding: .8rem 1rem !important; }
 
 @media(max-width: 639px) {
   .top-bar-call { margin-left: 0px; margin-top: 5px; }
