@@ -6,7 +6,7 @@ table, tr { width: 100%; }
 
 
 /* NAVIGATION */
-nav.top-bar { position: fixed; top: 0; width: 100%; z-index: 1000; }
+nav.top-bar { position: fixed; top: 0; width: 100%; z-index: 1000; box-shadow: 0px -1px 3px 1px #878787; }
 nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
 
 #nav-brand { font-size: 35px; }
