@@ -60,10 +60,9 @@ nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
 }
 
 .orbit-images { height: 600px; background-size: cover !important; background-position: center center !important; }
-#home-image-1 { background: url(https://s3-us-west-2.amazonaws.com/zenscapes/images/home/001h.jpg); }
-#home-image-2 { background: url(https://s3-us-west-2.amazonaws.com/zenscapes/images/home/002h.jpg); }
-#home-image-3 { background: url(https://s3-us-west-2.amazonaws.com/zenscapes/images/home/003h.jpg); }
-#home-image-4 { background: url(https://s3-us-west-2.amazonaws.com/zenscapes/images/home/116h.jpg); }
+#home-image-1 { background: url(https://s3-us-west-2.amazonaws.com/zenscapes/images/landscape/110.jpg); }
+#home-image-2 { background: url(https://s3-us-west-2.amazonaws.com/zenscapes/images/landscape/114.jpg); }
+#home-image-3 { background: url(https://s3-us-west-2.amazonaws.com/zenscapes/images/landscape/108.jpg); }
 
 @media(max-width: 756px) { #orbit-home, .orbit-images { height: 400px !important; } }
 .orbit-slide-medium img { min-height: 300px; }
