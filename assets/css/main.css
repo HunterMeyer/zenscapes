@@ -70,3 +70,8 @@ nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
 @media(max-width: 450px) { .cta-footer-label { font-size: 30px; } }
 
 
+/* TABLES */
+tbody tr:nth-child(even) { background-color: #EFF7EB !important; }
+tbody tr:nth-child(even):hover { background-color: #E5F2DE !important; }
+
+
