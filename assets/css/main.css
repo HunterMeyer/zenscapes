@@ -1,27 +1,24 @@
 table, tr { width: 100%; }
 .body { margin-top: 78px; }
 
+/* HELPERS */
+.zenscapes.label { background: #BBDCA8; color: #31710A; }
+
+
 /* NAVIGATION */
-nav.top-bar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
+nav.top-bar { position: fixed; top: 0; width: 100%; z-index: 1000; }
+nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
+.top-bar a { color: #66AA3C !important; }
+.top-bar a::after { border-color: #66AA3C transparent transparent !important; }
+.top-bar-call { margin-left: -33px; color: #A0A0A0; }
+.top-bar-call b { font-size: 18px; }
 
-.top-bar-call { margin-left: -23px; }
+.menu-text { padding: .8rem 1rem !important; }
 
-#nav-brand {
-  font-size: 35px;
-}
+#nav-brand { font-size: 35px; }
+#nav-logo { width: 35px; height: auto; margin-top: -7px; margin-right: 0px; }
 
-#nav-logo {
-  width: 35px;
-  height: auto;
-  margin-top: -7px;
-  margin-right: 0px;'
-}
-
+.nav-dropdown li:hover { background: #EAEAEA; font-weight: bold; }
 .nav-li-inline-block { display: inline-block !important; }
 
 @media(max-width: 639px) {
@@ -33,10 +30,11 @@ nav.top-bar {
   .body { margin-top: 131px; }
 }
 
+
 /* ORBITAL SCROLLING IMAGES */
-.orbit-home-label-wrapper { z-index: 10; position: relative; margin-bottom: -132px; background:rgba(0, 0, 0, 0.5); }
-.orbit-home-label-large { font-size: 40px; font-weight: bold; color: #FFF; margin-top:25px; }
-.orbit-home-label-small { color:#A0A0A0; margin-bottom:25px; font-size: 15px; }
+.orbit-home-label-wrapper { z-index: 10; position: relative; margin-bottom: -132px; background: rgba(0, 0, 0, 0.5); }
+.orbit-home-label-large { font-size: 40px; font-weight: bold; color: #FFF; margin-top: 25px; }
+.orbit-home-label-small { color: #A0A0A0; margin-bottom: 25px; font-size: 15px; }
 
 @media(max-width: 1024px) { 
   .orbit-home-label-wrapper { margin-bottom: -117px; }
