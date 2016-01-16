@@ -56,10 +56,10 @@ nav.top-bar {
 }
 
 .orbit-images { height: 600px; background-size: cover !important; background-position: center center !important; }
-#home-image-1 { background: url(assets/images/home/001h.jpg); }
-#home-image-2 { background: url(assets/images/home/002h.jpg); }
-#home-image-3 { background: url(assets/images/home/003h.jpg); }
-#home-image-4 { background: url(assets/images/home/116h.jpg); }
+#home-image-1 { background: url(../images/home/001h.jpg); }
+#home-image-2 { background: url(../images/home/002h.jpg); }
+#home-image-3 { background: url(../images/home/003h.jpg); }
+#home-image-4 { background: url(../images/home/116h.jpg); }
 
 @media(max-width: 756px) { #orbit-home, .orbit-images { height: 400px !important; } }
 .orbit-slide-medium img { min-height: 300px; }
