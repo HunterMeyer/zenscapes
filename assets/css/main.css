@@ -3,6 +3,9 @@ table, tr { width: 100%; }
 
 /* HELPERS */
 .zenscapes.label { background: #BBDCA8; color: #31710A; }
+.zenscapes.button.hollow { border-color: #77BD4E; color: #65A63E; }
+.zenscapes.button.hollow:hover { border-color: #31710A; color: #31710A; }
+
 
 
 /* NAVIGATION */
