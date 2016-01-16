@@ -1,4 +1,4 @@
-.body { margin-top: 56px; }
+.body { margin-top: 78px; }
 
 nav.top-bar {
   position: fixed;
@@ -7,19 +7,26 @@ nav.top-bar {
   z-index: 1000;
 }
 
+.top-bar-call { margin-left: -23px; }
+
+#nav-brand {
+  font-size: 35px;
+}
+
 #nav-logo {
-  width:20px;
-  height:20px;
-  margin-top:-3px;
-  margin-right:0px;'
+  width: 35px;
+  height: auto;
+  margin-top: -7px;
+  margin-right: 0px;'
 }
 
 .nav-li-inline-block { display: inline-block !important; }
 
 @media(max-width: 639px) {
+  .top-bar-call { margin-left: 0px; margin-top: 5px; }
   .nav-li-block { display: block !important; }
   .nav-centered li { text-align: center !important; }
   .nav-centered { text-align: center !important; }
   .nav-branding { margin-bottom: -10px; }
-  .body { margin-top: 109px; }
+  .body { margin-top: 131px; }
 }
