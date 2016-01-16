@@ -43,6 +43,13 @@
     </nav>
     <div class='body'>
 
+      <div class='row expanded' >
+        <div class='columns medium-12 text-center orbit-home-label-wrapper'>
+          <div class='orbit-home-label-large'>A Complete, Creative Solution for your Landscape</div>
+          <div class='orbit-home-label-small'>Proudly Serving Northern Atlanta</div>
+        </div>
+      </div>
+
       <div class='orbit' role='region' aria-label='ZenScapes Images of Our Work' data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
         <ul class='orbit-container' id='orbit-home'>
           <button class='orbit-previous' aria-label='previous'><span class='show-for-sr'>Previous Slide</span>&#9664;</button>
@@ -60,36 +67,29 @@
             <div class='orbit-images' id='home-image-4'></div>
           </li>
         </ul>
-        <div class='row expanded'>
-          <div class='columns medium-12 text-center orbit-home-label-wrapper'>
-            <div class='orbit-home-label-large'>A Complete, Creative Solution for your Landscape</div>
-            <div class='orbit-home-label-small'>Proudly Serving Northern Atlanta</div>
-          </div>
-        </div>
+
         <style>
-          .orbit-home-label-wrapper { margin-top: -132px; background:rgba(0, 0, 0, 0.5); }
+          .orbit-home-label-wrapper { z-index: 10; position: relative; margin-bottom: -132px; background:rgba(0, 0, 0, 0.5); }
           .orbit-home-label-large { font-size: 40px; font-weight: bold; color: #FFF; margin-top:25px; }
           .orbit-home-label-small { color:#A0A0A0; margin-bottom:25px; font-size: 15px; }
 
           @media(max-width: 1024px) { 
-            .orbit-home-label-wrapper { margin-top: -117px; }
+            .orbit-home-label-wrapper { margin-bottom: -117px; }
             .orbit-home-label-large { font-size: 30px; }
             .orbit-home-label-small {  font-size: 12px; margin-bottom: 29px; }
           }
 
           @media(max-width: 746px) { 
-            .orbit-home-label-wrapper { margin-top: -105px; }
+            .orbit-home-label-wrapper { margin-bottom: -105px; }
             .orbit-home-label-large {  font-size: 25px; }
             .orbit-home-label-small {   margin-bottom: 25px; }
           }
 
           @media(max-width: 617px) { 
-            .orbit-home-label-wrapper { margin-top: -142px; }
-            /*.orbit-home-label-large {  font-size: 20px; }*/
+            .orbit-home-label-wrapper { margin-bottom: -142px; }
             .orbit-home-label-small {  margin-bottom: 25px; }
           }
 
-          #orbit-home { z-index: -1; }
           .orbit-images { height: 600px; background-size: cover !important; background-position: center center !important; }
           #home-image-1 { background: url(assets/images/home/001h.jpg); }
           #home-image-2 { background: url(assets/images/home/002h.jpg); }
@@ -99,11 +99,11 @@
           @media(max-width: 756px) { #orbit-home, .orbit-images { height: 400px !important; } }
           .orbit-slide-medium img { min-height: 300px; }
         </style>
-        <nav class="orbit-bullets">
-          <button class="is-active" data-slide="0"><span class="show-for-sr">Image 1</span><span class="show-for-sr">Current Slide</span></button>
-          <button data-slide="1"><span class="show-for-sr">Image 2</span></button>
-          <button data-slide="2"><span class="show-for-sr">Image 3</span></button>
-          <button data-slide="3"><span class="show-for-sr">Image 4</span></button>
+        <nav class='orbit-bullets'>
+          <button class='is-active' data-slide='0'><span class='show-for-sr'>Image 1</span><span class='show-for-sr'>Current Slide</span></button>
+          <button data-slide='1'><span class='show-for-sr'>Image 2</span></button>
+          <button data-slide='2'><span class='show-for-sr'>Image 3</span></button>
+          <button data-slide='3'><span class='show-for-sr'>Image 4</span></button>
         </nav>
       </div>
 
