@@ -1,5 +1,7 @@
+table, tr { width: 100%; }
 .body { margin-top: 78px; }
 
+/* NAVIGATION */
 nav.top-bar {
   position: fixed;
   top: 0;
@@ -30,3 +32,34 @@ nav.top-bar {
   .nav-branding { margin-bottom: -10px; }
   .body { margin-top: 131px; }
 }
+
+/* ORBITAL SCROLLING IMAGES */
+.orbit-home-label-wrapper { z-index: 10; position: relative; margin-bottom: -132px; background:rgba(0, 0, 0, 0.5); }
+.orbit-home-label-large { font-size: 40px; font-weight: bold; color: #FFF; margin-top:25px; }
+.orbit-home-label-small { color:#A0A0A0; margin-bottom:25px; font-size: 15px; }
+
+@media(max-width: 1024px) { 
+  .orbit-home-label-wrapper { margin-bottom: -117px; }
+  .orbit-home-label-large { font-size: 30px; }
+  .orbit-home-label-small {  font-size: 12px; margin-bottom: 29px; }
+}
+
+@media(max-width: 746px) { 
+  .orbit-home-label-wrapper { margin-bottom: -105px; }
+  .orbit-home-label-large {  font-size: 25px; }
+  .orbit-home-label-small {   margin-bottom: 25px; }
+}
+
+@media(max-width: 617px) { 
+  .orbit-home-label-wrapper { margin-bottom: -142px; }
+  .orbit-home-label-small {  margin-bottom: 25px; }
+}
+
+.orbit-images { height: 600px; background-size: cover !important; background-position: center center !important; }
+#home-image-1 { background: url(assets/images/home/001h.jpg); }
+#home-image-2 { background: url(assets/images/home/002h.jpg); }
+#home-image-3 { background: url(assets/images/home/003h.jpg); }
+#home-image-4 { background: url(assets/images/home/116h.jpg); }
+
+@media(max-width: 756px) { #orbit-home, .orbit-images { height: 400px !important; } }
+.orbit-slide-medium img { min-height: 300px; }
