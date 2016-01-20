@@ -1,21 +1,25 @@
+/* GLOBAL */
+body {
+background: rgb(242,241,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(242,241,234,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 90%, rgba(242,241,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(242,241,234,1) 0%,rgba(255,255,255,1) 10%,rgba(255,255,255,1) 90%,rgba(242,241,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(242,241,234,1) 0%,rgba(255,255,255,1) 10%,rgba(255,255,255,1) 90%,rgba(242,241,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f1ea', endColorstr='#f2f1ea',GradientType=1 ); /* IE6-9 */
+}
+
+tbody tr:nth-child(even) { background-color: #EFF7EB !important; }
+tbody tr:nth-child(even):hover { background-color: #E5F2DE !important; }
 table, tr { width: 100%; }
 .body { margin-top: 78px; }
+
 
 /* HELPERS */
 .zenscapes.label { background: #BBDCA8; color: #31710A; }
 .zenscapes.button.hollow { border-color: #77BD4E; color: #65A63E; }
 .zenscapes.button.hollow:hover { border-color: #31710A; color: #31710A; }
 
-body {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f1ea+0,ffffff+10,ffffff+90,f2f1ea+100 */
-background: rgb(242,241,234); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(242,241,234,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 90%, rgba(242,241,234,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(242,241,234,1) 0%,rgba(255,255,255,1) 10%,rgba(255,255,255,1) 90%,rgba(242,241,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(242,241,234,1) 0%,rgba(255,255,255,1) 10%,rgba(255,255,255,1) 90%,rgba(242,241,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f1ea', endColorstr='#f2f1ea',GradientType=1 ); /* IE6-9 */
 
-}
-/* NAVIGATION */
+/* TOP NAVIGATION */
 nav.top-bar { position: fixed; top: 0; width: 100%; z-index: 1000; box-shadow: 0px -1px 3px 1px #878787; }
 nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
 
@@ -42,6 +46,12 @@ nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
   .nav-branding { margin-bottom: -10px; }
   .body { margin-top: 131px; }
 }
+
+
+/* SIDE NAVIGATION */
+.side-nav a { color: #66AA3C !important; transition: all 0.3s ease; }
+.side-nav a:hover { color: #48782B !important; border-color: #48782B transparent transparent !important; }
+.side-nav li:hover { background: #EAEAEA; font-weight: bold; }
 
 
 /* ORBITAL SCROLLING IMAGES */
@@ -80,10 +90,3 @@ nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
 .cta-footer-button + .cta-footer-button { margin-left: 20px; }
 
 @media(max-width: 450px) { .cta-footer-label { font-size: 30px; } }
-
-
-/* TABLES */
-tbody tr:nth-child(even) { background-color: #EFF7EB !important; }
-tbody tr:nth-child(even):hover { background-color: #E5F2DE !important; }
-
-
