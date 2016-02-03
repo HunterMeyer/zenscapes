@@ -1,4 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Merienda+One);
+
 /* GLOBAL */
+/* ========================================================== */
 body {
 background: rgb(242,241,234); /* Old browsers */
 background: -moz-linear-gradient(left,  rgba(242,241,234,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 90%, rgba(242,241,234,1) 100%); /* FF3.6-15 */
@@ -11,15 +14,17 @@ tbody tr:nth-child(even) { background-color: #EFF7EB !important; }
 tbody tr:nth-child(even):hover { background-color: #E5F2DE !important; }
 table, tr { width: 100%; }
 .body { margin-top: 78px; }
-
+.fonted { font-family: 'Merienda One', cursive; }
 
 /* HELPERS */
+/* ========================================================== */
 .zenscapes.label { background: #BBDCA8; color: #31710A; }
 .zenscapes.button.hollow { border-color: #77BD4E; color: #65A63E; }
 .zenscapes.button.hollow:hover { border-color: #31710A; color: #31710A; }
 
 
 /* TOP NAVIGATION */
+/* ========================================================== */
 nav.top-bar { position: fixed; top: 0; width: 100%; z-index: 1000; box-shadow: 0px -1px 3px 1px #878787; }
 nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
 
@@ -30,7 +35,7 @@ nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
 .top-bar a:hover, .top-bar a:hover:after { color: #48782B !important; border-color: #48782B transparent transparent !important; }
 
 .top-bar a::after { border-color: #66AA3C transparent transparent !important; }
-.top-bar-call { margin-left: -33px; color: #525252; }
+.top-bar-call { margin-left: -16px; color: #525252; }
 .top-bar-call b { font-size: 18px; }
 .nav-dropdown li { transition: all 0.2s ease; }
 .nav-dropdown li:hover { background: #EAEAEA; font-weight: bold; }
@@ -49,12 +54,14 @@ nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
 
 
 /* SIDE NAVIGATION */
+/* ========================================================== */
 .side-nav a { color: #66AA3C !important; transition: all 0.3s ease; }
 .side-nav a:hover { color: #48782B !important; border-color: #48782B transparent transparent !important; }
 .side-nav li:hover { background: #EAEAEA; font-weight: bold; }
 
 
 /* ORBITAL SCROLLING IMAGES */
+/* ========================================================== */
 .orbit-home-label-wrapper { z-index: 10; position: relative; margin-bottom: -132px; background: rgba(0, 0, 0, 0.5); }
 .orbit-home-label-large { font-size: 40px; font-weight: bold; color: #FFF; margin-top: 25px; }
 .orbit-home-label-small { color: #A0A0A0; margin-bottom: 25px; font-size: 15px; }
@@ -77,16 +84,55 @@ nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
 }
 
 .orbit-images { height: 600px; background-size: cover !important; background-position: center center !important; }
-#home-image-1 { background: url(https://s3-us-west-2.amazonaws.com/zenscapes/images/landscape/110.jpg); }
-#home-image-2 { background: url(https://s3-us-west-2.amazonaws.com/zenscapes/images/landscape/114.jpg); }
-#home-image-3 { background: url(https://s3-us-west-2.amazonaws.com/zenscapes/images/landscape/108.jpg); }
+#home-image-1 { background: url(../images/landscape/110.jpg); }
+#home-image-2 { background: url(../images/landscape/114.jpg); }
+#home-image-3 { background: url(../images/landscape/108.jpg); }
 
 @media(max-width: 756px) { #orbit-home, .orbit-images { height: 400px !important; } }
 .orbit-slide-medium img { min-height: 300px; }
 
 
 /* CALL TO ACTIONS */
+/* ========================================================== */
 .cta-footer-label { font-size: 35px; margin-bottom: 20px; }
 .cta-footer-button + .cta-footer-button { margin-left: 20px; }
 
 @media(max-width: 450px) { .cta-footer-label { font-size: 30px; } }
+
+
+/* LANDSCAPE DISPLAY PAGE */
+/* ========================================================== */
+#landscape-image-1 { background: url(../images/landscape/display_page/001.jpg); }
+#landscape-image-2 { background: url(../images/landscape/display_page/005.jpg); }
+#landscape-image-3 { background: url(../images/landscape/display_page/008.jpg); }
+#landscape-image-4 { background: url(../images/landscape/display_page/108.jpg); }
+#landscape-image-5 { background: url(../images/landscape/display_page/110.jpg); }
+#landscape-image-6 { background: url(../images/landscape/display_page/112.jpg); }
+#landscape-image-7 { background: url(../images/landscape/display_page/114.jpg); }
+#landscape-image-8 { background: url(../images/landscape/display_page/115.jpg); }
+#landscape-image-9 { background: url(../images/landscape/display_page/120.jpg); }
+
+
+/* HARDSCAPE DISPLAY PAGE */
+/* ========================================================== */
+#hardscape-image-1  { background: url(../images/hardscape/display_page/009.jpg); }
+#hardscape-image-2  { background: url(../images/hardscape/display_page/007.jpg); }
+#hardscape-image-3  { background: url(../images/hardscape/display_page/011.jpg); }
+#hardscape-image-4  { background: url(../images/hardscape/display_page/014.jpg); }
+#hardscape-image-5  { background: url(../images/hardscape/display_page/025.jpg); }
+#hardscape-image-6  { background: url(../images/hardscape/display_page/027.jpg); }
+#hardscape-image-7  { background: url(../images/hardscape/display_page/030.jpg); }
+#hardscape-image-8  { background: url(../images/hardscape/display_page/033.jpg); }
+#hardscape-image-9  { background: url(../images/hardscape/display_page/034.jpg); }
+#hardscape-image-10 { background: url(../images/hardscape/display_page/036.jpg); }
+#hardscape-image-11 { background: url(../images/hardscape/display_page/038.jpg); }
+#hardscape-image-12 { background: url(../images/hardscape/display_page/039.jpg); }
+#hardscape-image-13 { background: url(../images/hardscape/display_page/040.jpg); }
+#hardscape-image-14 { background: url(../images/hardscape/display_page/041.jpg); }
+#hardscape-image-15 { background: url(../images/hardscape/display_page/043.jpg); }
+#hardscape-image-16 { background: url(../images/hardscape/display_page/044.jpg); }
+#hardscape-image-17 { background: url(../images/hardscape/display_page/045.jpg); }
+#hardscape-image-18 { background: url(../images/hardscape/display_page/047.jpg); }
+#hardscape-image-19 { background: url(../images/hardscape/display_page/049.jpg); }
+#hardscape-image-20 { background: url(../images/hardscape/display_page/050.jpg); }
+
