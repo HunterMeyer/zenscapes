@@ -136,3 +136,10 @@ nav.top-bar, nav.top-bar ul { background: #F2F2F2; }
 #hardscape-image-19 { background: url(../images/hardscape/display_page/049.jpg); }
 #hardscape-image-20 { background: url(../images/hardscape/display_page/050.jpg); }
 
+
+/* FOOTER */
+/* ========================================================== */
+.promotion { text-align: left; font-size: 8px; color: #BCBCBC; margin-bottom: 5px; }
+.promotion a { color: #858585; }
+.promotion a:hover { color: #525252; }
+
